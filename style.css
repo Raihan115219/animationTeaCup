@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #607d8b;
+  background: #56ac74;
 }
 .container {
   position: relative;
@@ -18,7 +18,7 @@ body {
   position: relative;
   width: 280px;
   height: 300px;
-  background: linear-gradient(to right, #f9f9f9, #d9d9d9);
+  background: linear-gradient(to right, #222121, #1c1a1a);
   border-bottom-left-radius: 45%;
   border-bottom-right-radius: 45%;
 }
@@ -56,7 +56,7 @@ body {
   top: 40px;
   width: 168px;
   height: 180px;
-  border: 25px solid #dcdcdc;
+  border: 25px solid #000000;
   border-left: 25px solid transparent;
   border-bottom: 25px solid transparent;
   border-radius: 50%;
@@ -90,7 +90,7 @@ body {
   left: 30px;
   right: 30px;
   bottom: 30px;
-  background: radial-gradient(rgba(0, 0, 0, 0.2) 25%, transparent, transparent);
+  background: radial-gradient(rgba(21, 3, 3, 0.308) 25%, transparent, transparent);
   border-radius: 50%;
 }
 .vapor {
@@ -137,9 +137,12 @@ body {
   top: 20%;
   left: 30%;
 }
-.text p {
-  padding: 5px 10px;
-  margin: 5px 0;
-  font-size: 25px;
-  font-weight: bold;
+.text {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+.text img {
+  transform: scale(0.5);
 }
